@@ -1,0 +1,70 @@
+package test;
+
+public class Sample {
+
+	public static void main(String[] args) {
+		
+		System.out.println("Hello, Java");
+		System.out.println("Hello, Java");
+		
+		char var1 = 'B';
+		char c1 = 97;
+		
+		char var2 = '가';
+		char c2 = 55203;
+		
+		System.out.println(var1);
+		System.out.println(c1);
+		
+		System.out.println(var2);
+		System.out.println(c2);
+		
+		System.out.println("%d/%n");
+		
+		float f1 = 10.5f;
+		
+		double d1 = 10.5f;
+		
+		System.out.println(f1);
+		System.out.println(d1);
+		
+		double f2 = 2147483648d;
+		float f3 = 2147483658f;
+		float f4 = 2147483668f;
+		float f5 = 2147483678f;
+		System.out.println(f2);
+		System.out.println(f3);
+		System.out.println(f4);
+		System.out.println(f5);
+		
+		//2.147483648
+		
+		String str1 = "이\t한\"나";
+		String str2 = "홍\n길\n동";
+		
+		System.out.println(str1);
+		System.out.println(str2);
+		
+		int A = 100000;
+		byte B = 20;
+		
+		System.out.println(A);
+		System.out.println(B);
+		
+		B = (byte)A;
+		
+		System.out.println(A);
+		System.out.println(B);
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}
+
+	
