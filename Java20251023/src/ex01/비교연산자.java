@@ -41,12 +41,49 @@ public class 비교연산자 {
 		System.out.println("----------xor-----------");
 		System.out.println(9^10);
 		
+		System.out.println("----------삼항연산자(조건연산자)-----------");
+		Scanner sc = new Scanner(System.in);
 		
+		/*
+		 * 나이입력 받아서, 20보다 크면 성년, 아니면 미성년
+		 */
+		/*
+		System.out.println("나이 입력 >>");
+		int age = sc.nextInt();
+		String state = (age>=20)? "성년" : "미성년";
+		System.out.println("당신은"+state);
+		*/
+		/*
+		 * 정수 입력 받아서, 2로 나누어서 나머지가 0이면 짝수, 아니면 홀수
+		 */
+		/*
+		System.out.println("정수입력>>");
+		int iNnum = sc.nextInt();
+		String str = ((iNnum % 2)== 0)? "짝수" : "홀수";
+		System.out.println("값 : "+ str);
 		
+		/*
+		System.out.println("정수입력>>");
+		int number = sc.nextInt();
 		
+		String state1 = (number%2 == 0 )? "짝수" : "홀수";
+		System.out.println(number+ "는" + state1 + "입니다");
+		*/
 		
+		/*
+		 * 정수 입력 받아서, 3으로 나누어 나머지 0,1,2 판별
+		 */
+		System.out.println("정수입력>>");
+		int number = sc.nextInt();
+		int state = (number % 3 == 0)? 0: 1;
+		System.out.println(number+"를 3으로 나눈 나머지 " + state+ "입니다");
 		
+		System.out.println("정수입력>>");
+		int number1 = sc.nextInt();
+		int state1 = (number1 % 3 == 0)? 0: (number1 % 3 == 1) ? 1: 2;
+		System.out.println(number+"를 3으로 나눈 나머지 " + state1+ "입니다");
 		
+	
 	}
 
 }
