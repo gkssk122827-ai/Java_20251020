@@ -39,8 +39,9 @@ public class Sample {
 		
 		//2.147483648
 		
-		String str1 = "이\t한\"나";
-		String str2 = "홍\n길\n동";
+		System.out.println("--개행문자--");
+		String str1 = "이\t한\"나"; //t tap만큼 띄움
+		String str2 = "홍\n길\n동"; // \n 줄 변경
 		
 		System.out.println(str1);
 		System.out.println(str2);
@@ -112,7 +113,7 @@ public class Sample {
 		 * 1age(X)
 		 */
 		
-		
+		System.out.println();
 		
 	}
 
