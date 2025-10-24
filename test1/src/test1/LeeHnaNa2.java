@@ -16,6 +16,10 @@ public class LeeHnaNa2 {
 				System.out.println("speed :"+ speed);
 			}else if(str.equals("3"));
 		}
+	int A = 2;
+	int y = ++A;
+	System.out.println(A);
+	System.out.println(y);
 		
 	}		
 }
