@@ -1,5 +1,7 @@
 package test1;
 
+import java.util.Scanner;
+
 public class LeeHnaNa {
 
 	public static void main(String[] args) {
@@ -42,20 +44,80 @@ public class LeeHnaNa {
 			System.out.println("나이는"+age+"세 이므로");
 			System.out.println("요금은 0원 입니다");
 		*/
+		/*
 		int age = 70;
 		if (age >= 65) {
-			System.out.println("나이는"+age+"세 이므로");
+			System.out.println("0");
 		} else if(age >= 20){
-			System.out.println("나이는"+age+"세 이므로");
+			System.out.println("2000");
 		} else if(age >= 15) {
-			System.out.println("나이는"+age+"세 이므로");
+			System.out.println("1600");
 		} else if(age >= 7) {
-			System.out.println("나이는"+age+"세 이므로");
+			System.out.println("1000");
 		} else if(age < 6) {
-			System.out.println("나이는"+age+"세 이므로");
+			System.out.println("0");
 		}
 		
+		System.out.println("나이가"+age+"이므로");
 		System.out.println("0요금 입니다");
 		}
-
+*/
+		/*
+		String name = "이한나";
+		int age = 31;
+		String address = "서울특별시 강동구 명일동";
+		double weight = 52.5;
+		
+		System.out.println("이름 :"+name);
+		System.out.println("나이 :"+age);
+		System.out.println("주소 :"+address);
+		System.out.println("몸무게 :"+weight);
+		
+		Scanner sc = new Scanner(System.in);
+		
+		String name1 = sc.nextLine();
+		int age1 = Integer.parseInt(sc.nextLine());
+		String address1 = sc.nextLine();
+		double weight1 = Double.parseDouble(sc.nextLine());
+		
+		System.out.println("이름 : "+name1);
+		System.out.println("나이 : "+age1);
+		System.out.println("주소 : "+address1);
+		System.out.println("몸무게 : "+weight1);
+		*/
+		
+		
+		int num =(int)(Math.random()*10)+1;
+		System.out.println(num);
+		
+		switch(num) {
+		case 1:
+			System.out.println("1번 나옴");
+			break;
+			
+		case 2:
+			System.out.println("2번 나옴");
+			break;
+			
+		case 3:
+			System.out.println("3번 나옴");
+			break;
+			
+		case 4:
+			System.out.println("4번 나옴");
+			break;
+		default :
+			System.out.println("1~6 사이 숫자만 입력하세요");
+			
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}		
 }

@@ -59,7 +59,7 @@ public class Sample {
 		
 		double dNum = 20.5;
 		int iNum = 10;
-		dNum = iNum;
+		dNum =  iNum;
 		System.out.println("dNum: " + dNum);
 		
 		System.out.println("--실수 강제 형변환--");
