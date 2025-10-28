@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class LeeHnaNa2 {
 
 	public static void main(String[] args) {
-		
+		/*
 		boolean rum = true;
 		int speed = 0;
 		Scanner sc = new Scanner(System.in);
@@ -20,6 +20,9 @@ public class LeeHnaNa2 {
 	int y = ++A;
 	System.out.println(A);
 	System.out.println(y);
+		*/
+		int num = 60;
+		
 		
 	}		
 }

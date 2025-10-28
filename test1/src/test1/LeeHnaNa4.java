@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class LeeHnaNa4 {
 
 	public static void main(String[] args) {
-		
+	/*	
 	int A = 2;
 	int y = ++A;
 	System.out.println(A);
@@ -31,7 +31,19 @@ public class LeeHnaNa4 {
 	System.out.println(B1);
 	System.out.println(x1);
 	System.out.println("------------");
+	*/
+	int[] lotto = new int[45];
+	for (int i=0; i<45; i++)
+		int lotto[i]=i+1;
 	
+	for (int i=0; i<100; i++) {
+		int index = (int)(Math.random()*45);
+	int tmp = lotto[i%6];
+	int lotto[i%6] = lotto[index];
+	int lotto[index]=tmp;
+	}
+	for (int i=0; i<6; i++);
+	System.out.println(lotto[i]+" ");
 		
 	
 	}		
