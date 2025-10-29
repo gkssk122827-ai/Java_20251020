@@ -1,5 +1,6 @@
 package test1;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class LeeHnaNa {
@@ -86,7 +87,7 @@ public class LeeHnaNa {
 		System.out.println("몸무게 : "+weight1);
 		*/
 		
-		
+		/*
 		int num =(int)(Math.random()*10)+1;
 		System.out.println(num);
 		
@@ -110,9 +111,29 @@ public class LeeHnaNa {
 			System.out.println("1~6 사이 숫자만 입력하세요");
 			
 		}
-		
-		
-		
+		*/
+		/*
+		int[] lotto=new int[6];
+		boolean flag = false;
+		for(int i=0; i<lotto.length; i++) {
+			
+			int tmp =(int)(Math.random()*45)+1;
+			for(int j=0; j<lotto.length; j++) {
+				if (tmp == lotto[j]) {
+					flag = true;
+					break;
+				}
+			}
+			if(flag == false) {
+				lotto[i] = tmp;
+			}else {
+				i--;
+				flag = false;
+			}
+		}
+		System.out.println(Arrays.toString(lotto));
+	}
+		*/
 		
 		
 		

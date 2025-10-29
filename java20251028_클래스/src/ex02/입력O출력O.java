@@ -39,7 +39,7 @@ class Student{
 	int age;
 	String address;
 	
-	void study() {
+	public void study() {
 		System.out.println(name+ "java 공부 중 입니다");
 	}
 	
