@@ -11,7 +11,7 @@ public class StaticEx01Main {
 		StaticEx01 s2 = new StaticEx01();
 		
 		System.out.println(s1.ban);
-		s1.ban = 10;
+		StaticEx01.ban = 10;
 		
 		System.out.println(s2.ban);
 		System.out.println(s1.ban);
