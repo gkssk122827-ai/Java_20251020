@@ -1,13 +1,22 @@
 package test1;
 
-public class text {
+public class ex3 {
 
 	public static void main(String[] args) {
 		int sum=0;
+		int i=10;
 		
-		for(int i=0; i<=5; i++) {
-			sum +=i;  //sum = sum + i
-		}
+		do {
+			i++;
+			sum += i;
+		}while(i<5);
+		
+		
+			
+		
+		
+		
+		
 		System.out.println("총합:"+sum);
 
 	}
