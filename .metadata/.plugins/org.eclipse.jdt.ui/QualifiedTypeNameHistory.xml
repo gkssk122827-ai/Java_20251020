@@ -12,8 +12,14 @@
     <fullyQualifiedTypeName name="java.lang.reflect.Method"/>
     <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="test1.Student"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="ex02.peron"/>
+    <fullyQualifiedTypeName name="ex02.peson"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="ex02.Student"/>
+    <fullyQualifiedTypeName name="ex01.Person"/>
+    <fullyQualifiedTypeName name="ex01.Teacher"/>
+    <fullyQualifiedTypeName name="ex01.studnet"/>
 </qualifiedTypeNameHistroy>
