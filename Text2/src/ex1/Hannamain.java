@@ -1,17 +1,15 @@
 package ex1;
 
-public class Hannamain {
+public class Hannamain implements Hanna{
 
-	public static void main(String[] args) {
-		Hanna lee1 = Hanna.getInstance();
-		Hanna lee2 = Hanna.getInstance();
-		
-		if (lee1 == lee2) {
-			System.out.println("같은 객체");
-		}else {
-			System.out.println("다른 객체");
-		}
-
+	@Override
+	public void hanna(String na) {
+		System.out.println("na : "+na);
 	}
 
+	@Override
+	public void lee (String na) {
+		System.out.printf("나는 %s를 배우고 있습니다\n",na);
+	}
+	
 }

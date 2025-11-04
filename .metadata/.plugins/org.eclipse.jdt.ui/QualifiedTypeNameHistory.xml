@@ -20,6 +20,6 @@
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="ex02.Student"/>
     <fullyQualifiedTypeName name="ex01.Person"/>
-    <fullyQualifiedTypeName name="ex01.Teacher"/>
     <fullyQualifiedTypeName name="ex01.studnet"/>
+    <fullyQualifiedTypeName name="ex01.Teacher"/>
 </qualifiedTypeNameHistroy>
