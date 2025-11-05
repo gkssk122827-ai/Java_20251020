@@ -17,9 +17,12 @@
     <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="ex02.peron"/>
     <fullyQualifiedTypeName name="ex02.peson"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="ex02.Student"/>
     <fullyQualifiedTypeName name="ex01.Person"/>
     <fullyQualifiedTypeName name="ex01.studnet"/>
     <fullyQualifiedTypeName name="ex01.Teacher"/>
+    <fullyQualifiedTypeName name="ex1.Student"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="ex05.copy.Payment"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
 </qualifiedTypeNameHistroy>
